@@ -11,6 +11,6 @@ or node index.js --add 'note here'
 npm test
 
 #### pull requests
-[pull request 1]()
-[pull request 2]()
-[pull request 3]()
+[pull request lab1](https://github.com/401-advanced-javascript-raghadanees/notes/pull/2)
+[pull request lab2](https://github.com/401-advanced-javascript-raghadanees/notes/pull/4)
+[pull request lab3]()
