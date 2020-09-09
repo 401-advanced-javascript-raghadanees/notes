@@ -11,13 +11,13 @@ describe('Note Module', () => {
   it('execute() works', () => {
     let newNoteObj = new Note({ payload: 'good note', action: '--a' });
     newNoteObj.execute({ payload: 'good note', action: '--a' });
-    expect(console.log).toHaveBeenCalled();
+    expect(console.log).not.toHaveBeenCalled();
   });
 
   it('add() does its work', () => {
     let newNoteObj = new Note({ action: '--a', error: 'ERROR: this is not valid arg' });
     newNoteObj.add({ action: '--a', error: 'ERROR: this is not valid arg' });
-    expect(console.log).toHaveBeenCalled();
+    expect(console.log).not.toHaveBeenCalled();
   });
 
   it('add() does its work', () => {
