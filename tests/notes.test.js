@@ -7,7 +7,7 @@ const Note = require('../lib/notes');
 jest.spyOn(global.console, 'log');
 
 describe('Note Module', () => {
-    // test case
+  // test case
   it('execute() works', () => {
     let newNoteObj = new Note({ payload: 'good note', action: '--a' });
     newNoteObj.execute({ payload: 'good note', action: '--a' });
