@@ -26,7 +26,7 @@
     "@code-fellows/supergoose": "^1.0.11",
     "eslint": "^7.9.0",
     "minimist": "^1.2.5",
-    "mongoose": "^5.10.3"
+    "mongoose": "^5.10.7"
   },
   "devDependencies": {
     "jest": "^26.4.2"
