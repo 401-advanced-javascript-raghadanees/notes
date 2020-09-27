@@ -10,10 +10,10 @@ const mongoose = require('mongoose');
 const MONGOOSE_URL = 'mongodb://localhost:27017/notesDB';
 
 mongoose.connect(MONGOOSE_URL, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
-    useFindAndModify: false
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  useCreateIndex: true,
+  useFindAndModify: false,
 });
 
 const Input = require('./lib/input.js');
